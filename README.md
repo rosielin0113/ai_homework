@@ -9,11 +9,6 @@ a self-imposed wall-clock budget. Uses the helpers provided by
 environment.py (place / get_valid_moves / check_win) so the rules are
 guaranteed to match the tournament environment.
 
-Strategy vs heuristic alpha-beta cutoff opponents
--------------------------------------------------
-Most opponents use a fixed depth (~4-6 plies) because they have no time
-management. We use ITERATIVE DEEPENING with the full 5-min budget, so we
-typically reach 2-4 plies deeper. That horizon advantage decides the game.
 
 Core ideas (all four taught in class)
 -------------------------------------
